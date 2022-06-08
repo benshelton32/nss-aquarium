@@ -1,0 +1,64 @@
+.header {
+    text-align: center;
+    color: white;
+    background-color: #154c79;
+}
+
+/* body {
+    background-color: #154c79;
+} */
+
+.fishList {
+    background-color: #76b5c5;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.careTips {
+    background-color: #76b5c5;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+}
+
+.travelTips {
+    background-color: #76b5c5;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.locations {
+    background-color: #76b5c5;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.fishListAndCareTips {
+    display: flex;
+
+}
+
+.locationsAndTravelTips {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+.container {
+    background-color: white;
+    padding: 1px 16px;
+  }
+
