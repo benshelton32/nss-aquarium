@@ -4,16 +4,18 @@
     background-color: #154c79;
 }
 
-/* body {
-    background-color: #154c79;
-} */
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: #154c79; */
+}
 
-.fishList {
+.fishListHTMLString {
     background-color: #76b5c5;
     border: solid black 2px;
     margin: 5px;
     padding: 10px;
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -24,7 +26,7 @@
     border: solid black 2px;
     margin: 5px;
     padding: 10px;
-    width: 30%;
+    width: 25%;
     float: right;
 }
 
@@ -54,7 +56,9 @@
 
 .card {
     flex-wrap: wrap;
-    flex-basis: 20%;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+    margin: 25px;
 }
 
 .container {
@@ -62,3 +66,9 @@
     padding: 1px 16px;
   }
 
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
